@@ -1,4 +1,4 @@
-=== Spotfix - proofreading, spell and grammar check by visitors ===
+=== Spotfix - proofreading, spell and grammar review by visitors ===
 Contributors: spotfix
 Tags: proofreading, grammar, spell-check, feedback, content-editing, doboard
 Requires at least: 5.0
@@ -32,7 +32,7 @@ SpotFix turns proofreading and feedback into structured, actionable improvements
 
 == Installation ==
 
-1. Upload the plugin files to the `/wp-content/plugins/spell-grammar-typo-check` directory, or install the plugin through the WordPress plugins screen directly.
+1. Upload the plugin files to the `/wp-content/plugins/spell-grammar-typo-review` directory, or install the plugin through the WordPress plugins screen directly.
 2. Activate the plugin through the 'Plugins' screen in WordPress.
 3. Go to Settings > Spotfix to configure the plugin.
 4. Insert your Spotfix code from doboard.com/spotfix#doboard_settings.
