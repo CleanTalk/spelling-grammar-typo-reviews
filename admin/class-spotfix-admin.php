@@ -112,8 +112,8 @@ class Spotfix_Admin {
 	 * Render general section.
 	 */
 	public function render_general_section() {
-		echo sprintf( '<h3>%s</h3>', __( 'Proofreading, spell and grammar review by visitors', 'spell-grammar-typo-review' ) );
-		echo sprintf( '<p>%s</p>', __( 'Collect questions, suggestions, and fix content directly on website pages.', 'spell-grammar-typo-review' ) );
+		echo sprintf( '<h3>%s</h3>', __( 'Proofreading, spelling and grammar reviews by visitors', 'spelling-grammar-typo-reviews' ) );
+		echo sprintf( '<p>%s</p>', __( 'Collect questions, suggestions, and fix content directly on website pages.', 'spelling-grammar-typo-reviews' ) );
 	}
 
 	/**
@@ -141,12 +141,12 @@ class Spotfix_Admin {
 		<div class="spotfix-status-container">
 			<span class="spotfix-status-indicator status-<?php echo esc_attr( $status ); ?>">
 				<span class="status-dot"></span>
-				<strong><?php echo sprintf( __( 'Spotfix is %s', 'spell-grammar-typo-review' ), esc_html( $status ) ); ?></strong>
+				<strong><?php echo sprintf( __( 'Spotfix is %s', 'spelling-grammar-typo-reviews' ), esc_html( $status ) ); ?></strong>
 			</span>
 			<?php if ( $status === 'offline' && ! empty( $error ) ) : ?>
 				<p class="spotfix-error-message"><?php echo esc_html( $error ); ?></p>
 			<?php endif; ?>
-			<a href="#" class="spotfix-check-status-link" id="spotfix-check-status"><?php _e( 'Check Status', 'spell-grammar-typo-review' ); ?></a>
+			<a href="#" class="spotfix-check-status-link" id="spotfix-check-status"><?php _e( 'Check Status', 'spelling-grammar-typo-reviews' ); ?></a>
 		</div>
 		<?php
 	}
@@ -158,22 +158,22 @@ class Spotfix_Admin {
 		$settings = get_option( 'spotfix_settings', array() );
 		$visibility = isset( $settings['visibility'] ) ? $settings['visibility'] : 'everyone';
 		?>
-		<p class="description"><?php _e( 'Choose scope of visibility for the widget.', 'spell-grammar-typo-review' ); ?></p>
+		<p class="description"><?php _e( 'Choose scope of visibility for the widget.', 'spelling-grammar-typo-reviews' ); ?></p>
 		<fieldset>
 			<label>
 				<input type="radio" name="spotfix_settings[visibility]" value="everyone" <?php checked( $visibility, 'everyone' ); ?> />
-				<?php _e( 'Everyone including unauthorized visitors.', 'spell-grammar-typo-review' ); ?>
+				<?php _e( 'Everyone including unauthorized visitors.', 'spelling-grammar-typo-reviews' ); ?>
 			</label><br>
 			<label>
 				<input type="radio" name="spotfix_settings[visibility]" value="logged_in" <?php checked( $visibility, 'logged_in' ); ?> />
-				<?php _e( 'Authorized in WordPress users.', 'spell-grammar-typo-review' ); ?>
+				<?php _e( 'Authorized in WordPress users.', 'spelling-grammar-typo-reviews' ); ?>
 			</label><br>
 			<label>
 				<input type="radio" name="spotfix_settings[visibility]" value="admin" <?php checked( $visibility, 'admin' ); ?> />
-				<?php _e( 'Users with the admin role.', 'spell-grammar-typo-review' ); ?>
+				<?php _e( 'Users with the admin role.', 'spelling-grammar-typo-reviews' ); ?>
 			</label>
 		</fieldset>
-		<p class="description"><?php _e( 'The widget is visible only on public pages of WordPress.', 'spell-grammar-typo-review' ); ?></p>
+		<p class="description"><?php _e( 'The widget is visible only on public pages of WordPress.', 'spelling-grammar-typo-reviews' ); ?></p>
 		<?php
 	}
 
@@ -193,16 +193,16 @@ class Spotfix_Admin {
 				<?php
 				settings_fields( 'spotfix_settings_group' );
 				do_settings_sections( 'spotfix-settings' );
-				submit_button( __( 'Save Settings', 'spell-grammar-typo-review' ) );
+				submit_button( __( 'Save Settings', 'spelling-grammar-typo-reviews' ) );
 				?>
 			</form>
 
 			<div class="spotfix-info-section">
-				<h2><?php _e( 'Instructions', 'spell-grammar-typo-review' ); ?></h2>
-				<p><?php _e( 'Instructions to obtain the code <a href="https://doboard.com/spotfix#doboard_settings" target="_blank">doboard.com/spotfix#doboard_settings</a>.', 'spell-grammar-typo-review' ); ?></p>
-				<p><?php _e( 'To run the widget, you need a <a href="https://doboard.com" target="_blank">doBoard account</a>. doBoard is the task management system that serves as the backend for Spotfix.', 'spell-grammar-typo-review' ); ?></p>
-				<p><?php _e( 'Have questions? We are ready to support you at <a href="https://wordpress.org/support/plugin/spell-grammar-typo-review" target="_blank">wordpress.org/support/plugin/spell-grammar-typo-review</a>.', 'spell-grammar-typo-review' ); ?></p>
-				<p><?php _e( 'Like the plugin? Review us please <a href="https://wordpress.org/support/plugin/spell-grammar-typo-review/reviews" target="_blank">wordpress.org/support/plugin/spell-grammar-typo-review/reviews</a>.', 'spell-grammar-typo-review' ); ?></p>
+				<h2><?php _e( 'Instructions', 'spelling-grammar-typo-reviews' ); ?></h2>
+				<p><?php _e( 'Instructions to obtain the code <a href="https://doboard.com/spotfix#doboard_settings" target="_blank">doboard.com/spotfix#doboard_settings</a>.', 'spelling-grammar-typo-reviews' ); ?></p>
+				<p><?php _e( 'To run the widget, you need a <a href="https://doboard.com" target="_blank">doBoard account</a>. doBoard is the task management system that serves as the backend for Spotfix.', 'spelling-grammar-typo-reviews' ); ?></p>
+				<p><?php _e( 'Have questions? We are ready to support you at <a href="https://wordpress.org/support/plugin/spell-grammar-typo-review" target="_blank">wordpress.org/support/plugin/spell-grammar-typo-review</a>.', 'spelling-grammar-typo-reviews' ); ?></p>
+				<p><?php _e( 'Like the plugin? Review us please <a href="https://wordpress.org/support/plugin/spell-grammar-typo-review/reviews" target="_blank">wordpress.org/support/plugin/spell-grammar-typo-review/reviews</a>.', 'spelling-grammar-typo-reviews' ); ?></p>
 			</div>
 		</div>
 		<?php
@@ -215,7 +215,7 @@ class Spotfix_Admin {
 		check_ajax_referer( 'spotfix_check_status', 'nonce' );
 
 		if ( ! current_user_can( 'manage_options' ) ) {
-			wp_send_json_error( array( 'message' => __( 'Unauthorized', 'spell-grammar-typo-review' ) ) );
+			wp_send_json_error( array( 'message' => __( 'Unauthorized', 'spelling-grammar-typo-reviews' ) ) );
 		}
 
 		$settings = get_option( 'spotfix_settings', array() );
@@ -241,7 +241,7 @@ class Spotfix_Admin {
 		$settings_link = sprintf(
 			'<a href="%s">%s</a>',
 			admin_url( 'options-general.php?page=spotfix-settings' ),
-			__( 'Settings', 'spell-grammar-typo-review' )
+			__( 'Settings', 'spelling-grammar-typo-reviews' )
 		);
 		array_unshift( $links, $settings_link );
 		return $links;

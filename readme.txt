@@ -1,4 +1,4 @@
-=== Spotfix - proofreading, spell and grammar review by visitors ===
+=== Spotfix - proofreading, spelling and grammar reviews by visitors ===
 Contributors: spotfix
 Tags: proofreading, grammar, spell-check, feedback, content-editing, doboard
 Requires at least: 5.0
