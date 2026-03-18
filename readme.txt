@@ -1,4 +1,4 @@
-=== Spotfix - Website feedback & Bug reporting tool ===
+=== Bug reporting tool & Website feedback. Spotfix  ===
 Contributors: cleantalk, glomberg, alexandergull, sergefcleantalk, antonv1
 Tags: bug, grammar, spell-check, typo 
 Requires at least: 5.0
@@ -8,11 +8,11 @@ Requires PHP: 7.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Collect visitors’ questions and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
+Collect visitors’ feedback and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
 
 == Description ==
 
-Collect visitors’ questions and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
+Collect visitors’ feedback and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
 
 = Highlight → Ask → Resolve =
 
