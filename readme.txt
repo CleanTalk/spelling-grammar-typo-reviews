@@ -1,6 +1,6 @@
-=== Bug reporting tool & Website feedback. Spotfix  ===
+=== Spotfix - proofreading, spelling and grammar reviews by visitors ===
 Contributors: cleantalk, glomberg, alexandergull, sergefcleantalk, antonv1
-Tags: bug, grammar, spell-check, typo 
+Tags: proofreading, grammar, spell-check, typo  
 Requires at least: 5.0
 Tested up to: 6.9
 Stable tag: 1.0.4
@@ -8,16 +8,16 @@ Requires PHP: 7.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Collect visitors’ feedback and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
+Collect visitors’ questions and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
 
 == Description ==
 
-Collect visitors’ feedback and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
+Collect visitors’ questions and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
 
 = Highlight → Ask → Resolve =
 
 <cite>
-**Spotfix** is a lightweight on-page widget that makes it easy for visitors, editors, writers, and team members to submit feedback directly in the context of your website's content. It's especially useful for website feedback, bug reporting, spell checking, and fixing outdated or unclear information, because corrections are tied to the exact place where the issue appears.
+**Spotfix** is a lightweight on-page widget that makes it easy for visitors, editors, writers, and team members to submit feedback directly in the context of your website's content. It's especially useful for proofreading, spell checking, and fixing outdated or unclear information, because corrections are tied to the exact place where the issue appears.
 </cite>
 
 A visitor simply highlights a piece of text or an element on the page. When they do, a compact widget appears in the bottom-right corner, allowing them to submit a Spot — a short request, correction suggestion, or question attached to the precise content location. No need to describe where the problem is — the widget knows automatically.
