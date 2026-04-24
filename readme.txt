@@ -1,18 +1,20 @@
-=== Spotfix - proofreading, spelling and grammar reviews by visitors ===
+=== Website Feedback & Content Review ===
 Contributors: cleantalk, glomberg, alexandergull, sergefcleantalk, antonv1
-Tags: proofreading, grammar, spell-check, typo  
+Tags: feedback, website feedback, contect review, bug reporting
 Requires at least: 5.0
-Tested up to: 6.9
+Tested up to: 7.0
 Stable tag: 1.0.4
 Requires PHP: 7.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Collect visitors’ questions and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
+Collect website feedback directly on pages. Let visitors or clients highlight content, report bugs, content review, and leave comments.
 
 == Description ==
 
-Collect visitors’ questions and suggestions directly on your website pages. Make bug reporting, spell checking, and grammar reviews easy.
+Collect website feedback directly on pages. Let visitors or clients highlight content, report bugs, request edits, and leave comments.
+
+https://www.youtube.com/watch?v=73wfU9KCeG8
 
 = Highlight → Ask → Resolve =
 
@@ -81,6 +83,42 @@ You can configure the widget to be visible to:
 * Users with the admin role only
 
 The widget is visible only on public pages of WordPress.
+
+= How can I collect client feedback on my website? =
+You can collect client feedback by adding an on-page feedback tool that allows clients to click any area of the page and leave comments or requests. Spotfix helps agencies and freelancers gather feedback directly on live pages without long email threads.
+
+= What is website annotation? = 
+Website annotation is the ability to mark specific text, images, buttons, or page sections and leave comments directly on the website. Spotfix lets clients, visitors, or team members annotate pages visually, making feedback clearer and faster than email or screenshots.
+
+= What is a feedback widget for WordPress? = 
+A feedback widget is a small button or floating tool added to your website that lets users submit comments, bug reports, or suggestions. Spotfix adds a feedback widget to WordPress so users can report issues in context.
+
+= What is visual feedback on a website? = 
+Visual feedback means users can point to an exact part of a page—such as text, images, layouts, or buttons—and leave comments there. This reduces confusion and speeds up revisions. Spotfix is built for collecting visual feedback directly on pages.
+
+= How do I collect website feedback from visitors? =
+You can collect website feedback by using a feedback plugin that allows visitors to report typos, broken elements, usability issues, or ideas while browsing. Spotfix turns feedback into organized tasks for follow-up.
+
+= Can clients review my website before launch? =
+Yes. Spotfix is useful for pre-launch reviews because clients can inspect pages, leave comments, request edits, and approve changes directly on the website.
+
+= Is website annotation better than screenshots? =
+Usually yes. Website annotation allows comments to stay attached to the exact element on the page, while screenshots often lose context and require back-and-forth clarification.
+
+= Can I use a feedback widget for bug reports? =
+Yes. A feedback widget can help visitors report layout issues, broken links, form problems, mobile display bugs, and content mistakes. Spotfix supports this workflow directly on your website.
+
+= What businesses need website feedback tools? = 
+Website feedback tools are especially useful for web agencies, freelancers, eCommerce stores, SaaS companies, publishers, and teams managing frequent content updates.
+
+= Does website feedback improve conversions? =
+Yes. Collecting real visitor feedback can reveal confusing forms, broken pages, trust issues, slow workflows, and UX friction that may hurt conversions. Fixing those issues can improve leads and sales.
+
+= Can users report typos and content mistakes? = 
+Yes. Spotfix allows users to highlight text and report spelling, grammar, formatting, or factual issues directly on the page.
+
+= How is Spotfix different from a contact form? = 
+A contact form collects general messages. Spotfix collects page-specific feedback tied to exact content or design elements, making requests easier to understand and act on. Also, visitors see previous feedback, posted by other visitors, which helps improve a site by community. Community of visitors.
 
 == Screenshots ==
 
