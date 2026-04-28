@@ -8,11 +8,11 @@ Requires PHP: 7.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Collect website feedback directly on pages. Let visitors or clients highlight content, report bugs, content review, and leave comments.
+Visualize website feedback directly on your pages. Let visitors or clients highlight content, report bugs, content review, and leave comments.
 
 == Description ==
 
-Collect website feedback directly on pages. Let visitors or clients highlight content, report bugs, request edits, and leave comments.
+Collect website feedback directly on your pages. Visualize and manage visitor feedback in context, right on your site. Let visitors or clients highlight content, report bugs, request edits, and leave comments.
 
 https://www.youtube.com/watch?v=73wfU9KCeG8
 
@@ -26,9 +26,15 @@ A visitor simply highlights a piece of text or an element on the page. When they
 
 Submitting a Spot takes less than 10 seconds. The widget automatically fills the title using the highlighted text or an image's Title/Alt attribute. The visitor adds a short message, optionally includes their name and email, while the page URL and element reference are captured automatically.
 
-**Each Spot becomes a task in doBoard**, where your team can track progress, assign responsibility, add labels, and set due dates. The referenced element on the page is highlighted, making content review and corrections extremely straightforward. This greatly reduces miscommunication — especially compared to email feedback or team chat screenshots.
+When a Spot is submitted, it appears in the widget on your page and instantly lands as a **task in doBoard**, our lightweight project workspace. From there, you can label and organize feedback your way: assign items to team members, set priorities and due dates, discuss details in comments, and mark tasks as done.
 
-**You can reply to Spots from doBoard or directly within the widget**. Conversations appear as a chat thread with visible progress and status updates. If the visitor shared an email, they'll be notified when you reply.
+You can reply to Spots from doBoard or directly within the widget. Conversations appear as **a chat** thread with visible progress and status updates. If the visitor provided an email address, they’ll be automatically notified when you reply.
+
+To start receiving feedback with Spotfix, simply set up your [doBoard account](https://app.doboard.com/signup) and create a dedicated project for your website. Then, copy your unique code snippet from the doBoard project settings and paste it into the Spotfix WordPress plugin. It only takes a few minutes.
+
+You can also create separate projects for different websites to keep all your feedback perfectly organized.
+
+Detailed instructions are available in the Installation tab. 
 
 When collapsed, the Spotfix icon shows how many Spots exist on the current page and across the site. One click reveals the list and instantly highlights all linked elements.
 
