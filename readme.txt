@@ -8,7 +8,8 @@ Requires PHP: 7.2
 License: GPL-2.0+
 License URI: http://www.gnu.org/licenses/gpl-2.0.txt
 
-Visualize website feedback directly on your pages. Let visitors or clients highlight content, report bugs, content review, and leave comments.
+
+The easiest way to collect and manage website feedback. Users can drop visual feedback right on your live website without leaving the page. You instantly receive all their comments as organized tasks.
 
 == Description ==
 
