@@ -77,7 +77,8 @@ class Spotfix_Admin {
 			'How work with the widget?',
 			array( $this, 'render_visibility_field' ),
 			'spotfix-settings',
-			'spotfix_general_section'
+			'spotfix_general_section',
+			array( 'class' => 'spotfix-visibility-row' )
 		);
 	}
 
@@ -236,6 +237,7 @@ class Spotfix_Admin {
 				<a href="<?php echo esc_url( 'https://app.doboard.com/' . $account_id . '/projects/' . $project_id . '?user_token=' . $user_token ); ?>" class="spotfix-check-status-link" target="_blank" rel="noopener noreferrer"><?php esc_html_e( 'Account & Project', 'spotfix-content-review' ); ?></a>
 			<?php endif; ?>
 		</div>
+		<p class="description"><?php esc_html_e( 'If you use a caching plugin, please clear the site cache.', 'spotfix-content-review' ); ?></p>
 		<?php if ( ! empty( $code ) && $status === 'online' ) : ?>
 			<div class="spotfix-instructions-section" style="margin-top: 20px; padding: 20px; background: #f0f6fc; border-left: 4px solid #2271b1;">
 				<h3 style="margin-top: 0;"><?php esc_html_e( 'What should I do next?', 'spotfix-content-review' ); ?></h3>

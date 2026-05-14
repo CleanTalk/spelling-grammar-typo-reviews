@@ -6,6 +6,10 @@
 	font-weight: 600;
 }
 
+.form-table tr.spotfix-visibility-row th {
+	padding: 0 0 7px 0;
+}
+
 .form-table td {
 	display: block;
 	width: 100%;
